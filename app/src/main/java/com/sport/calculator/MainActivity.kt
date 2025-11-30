@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // TODO nastavi ovdje
         setContent {
             CalculatorTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
