@@ -16,6 +16,8 @@ sealed class Screen(val route: String) {
     }
 }
 
+
+// funkcija za navigaciju
 @Composable
 fun Navigacija(navController: NavHostController) {
     NavHost(
