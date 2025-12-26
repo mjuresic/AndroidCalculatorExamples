@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
             CalculatorTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     val navController = rememberNavController()
+                    // TODO nesto nesto
                     Navigacija(navController)
                 }
             }
